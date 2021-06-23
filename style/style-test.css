@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+body {
+    font-family: "Gilroy";
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.container {
+    width: 1600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .wrapper-top {
+    background-color: #20242D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .address {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+ .header .contacts a {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .contacts li {
+    position: relative;
+    padding-left: 21px;
+}
+
+.header .contacts svg {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+}
+
+.header .wrapper-bottom {
+    background-color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.header .wrapper-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* dont work */
+.header .navigation li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .navigation a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+    text-decoration: none;
+}
+
+.header .navigation .active {
+    color: #FF7129; 
+    position: relative;
+}
+
+.header .navigation .active::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    background-color: #FF7129;
+
+    position: absolute;
+    top: 9px;
+    right: -15px;
+}
+
+.header .navigation .active::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    background-color: #FF7129;
+
+    position: absolute;
+    top: 9px;
+    right: 15px;
+}
+
+.header .navigation a:hover {
+    color: #FF7129;
+}
+
+.start-screen {
+    padding-top: 270px;
+    padding-bottom: 138px;
+    background-image: url(../img/bg-main.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.start-screen .main-title {
+    font-family: Gilroy;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.start-screen .slogan {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 508px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start-screen .decor-text {
+    font-family: Gilroy;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    
+} 
+
+.start-screen .btn {
+    background:#FF7129;
+    box-shadow: 0px 4px 28px 0px #FF71294A;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 188px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+}
+
+.start-screen .btn-scroll {
+    background: rgba(123, 126, 133, 0.4);
+    width: 46px;
+    height: 46px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 106px;
+    margin-bottom: 138px;
+
+    border-radius: 50%;
+}
+
+.header .wrapper-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-top .contacts {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.header .contacts li {
+    margin-right: 57px;
+}
+
+.header .contacts li:last-child {
+    margin-right: 0;
+}

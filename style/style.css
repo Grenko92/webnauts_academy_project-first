@@ -1,0 +1,483 @@
+/* Подключение шрифтов */
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-medium.ttf);
+    font-weight: 500;
+} 
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+/* Общие стили */
+
+body {
+    font-family: "Gilroy";
+    padding: 0px;
+    margin: 0px;
+
+    width: auto;
+    max-width: 1600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+button{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.btn {
+    width: 187px;
+    height: 49px;
+
+    background: #FF7129;
+    box-shadow: 0px 4px 28px 
+    rgba(255, 113, 41, 0.29);
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: transparent;
+    border: 1px solid #FF7129;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 28px rgba(255, 113, 41, 0.67));
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-light {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FF7129;
+}
+
+/* Стили header */
+
+header .wrapper-top {
+    background-color: #20242D;
+
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header .addres {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+header .contact-info a{
+    color: #FFFFFF;
+}
+
+header .tel a {
+    font-weight: 500;
+}
+
+.wrapper-bottom .navigation-header a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #20242D;
+}
+
+header .wrapper-bottom a:hover {
+    color: #FF7129;
+
+}
+
+/* Стили main */
+
+.main-start-screen {
+    background-image: url(../img/bg-main.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 844px;
+}
+
+main .main-title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main .slogan {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main .btn-scroll {
+    padding: 0;
+    border: none;
+    width: 46px;
+    height: 46px;
+    background: rgba(123, 126, 133, 0.4);
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+main .main-info {
+    background-image: url(../img/main-info-bg.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+main .main-info h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+
+main .main-info p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+/* Стили footer */
+
+footer {
+    background-color: #20242D;
+}
+
+.wrapper-top .nav-footer a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.wrapper-top .nav-footer a:hover {
+    color: #FF7129;
+}
+
+
+
+footer .wrapper-bottom a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #7B7E85;
+}
+
+/* Стили PopUp-ов */
+
+.btn-close {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+label {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
+}
+
+input {
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box; 
+}
+
+/* Сallback */
+
+.popup-callback {
+    display: none;
+    background-color: #FFFFFF;
+}
+
+.popup-callback .popup-info h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+
+.popup-callback .popup-info p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+/* Order */
+
+.popup-order {
+    display: none;
+}
+
+.popup-order .popup-price-info {
+    background-color: #FF7129;
+}
+
+.popup-order .price-info-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.popup-order .price{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+} 
+
+
+/* Gratitude */
+
+.popup-gratitude {
+    display: none;
+    background-color: #FF7129;
+}
+
+.popup-gratitude h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.popup-gratitude p{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+/* Стили O nas */
+
+.o_nas .wrapper-bg-img-top {
+    background-image: url(/img/bg-o_nas-top-img.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.o_nas .wrapper-bg-img-bottom {
+    background-image: url(../img/main-info-bg.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.o_nas h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #FFFFFF;
+}
+
+.o_nas p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+/* Стили Projekty */
+
+.projekty h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+
+.projekty .btn-gallery-scroll {
+    padding: 0;
+    border: none;
+    width: 56px;
+    height: 56px;
+    background: #FF7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.projekty .num-of-current-pic {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.projekty .num-of-all-pic {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7E85;
+}
+
+/* Стили Kontakty */
+
+.kontakty h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+
+.kontakty .user-list-contacts span{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+}
+
+.kontakty .user-list-contacts a {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;  
+}
+
+
+.kontakty .user-list-contacts .tel {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+}
+
+/* TEST */
+
+
+
+/* ANIMATION POPUP */
+@keyframes fadeIn {
+    0% {
+        transform: translate(-50%, -2000px);
+    }
+    50% {
+        transform: translate(-50%, 0%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.show {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
